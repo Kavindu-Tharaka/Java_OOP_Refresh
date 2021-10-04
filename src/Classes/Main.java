@@ -11,10 +11,10 @@ public class Main {
         System.out.println(textBox1.text);*/ //"Box 2" will be printed
 
         Employee employee = new Employee();
-        employee.setHourlyRate(20);
-        employee.setBasicSalary(50_000);
+        employee.setterHourlyRate(20);
+        employee.setterBasicSalary(50_000);
 
-        System.out.println(employee.calculateWage(10));
+        System.out.println(employee.calculateSalary(10));
 
     }
 }
