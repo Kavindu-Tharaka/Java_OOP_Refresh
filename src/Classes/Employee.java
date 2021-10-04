@@ -4,23 +4,23 @@ public class Employee {
     private int basicSalary;
     private int hourlyRate;
 
-    public int calculateWage(int extraHours) {
-        return getBasicSalary() + (getHourlyRate() * extraHours);
+    public int calculateSalary(int extraHours) {
+        return getterBasicSalary() + (getterHourlyRate() * extraHours);
     }
 
-    public int getBasicSalary() {
+    public int getterBasicSalary() {
         return basicSalary;
     }
 
-    public void setBasicSalary(int basicSalary) {
+    public void setterBasicSalary(int basicSalary) {
         this.basicSalary = basicSalary;
     }
 
-    public int getHourlyRate() {
+    public int getterHourlyRate() {
         return hourlyRate;
     }
 
-    public void setHourlyRate(int hourlyRate) {
+    public void setterHourlyRate(int hourlyRate) {
         this.hourlyRate = hourlyRate;
     }
 }
